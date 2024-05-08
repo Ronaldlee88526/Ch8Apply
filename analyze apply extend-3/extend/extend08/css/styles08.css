@@ -1,0 +1,63 @@
+/*
+Author: Hung-Ching Lee
+Date: 05/06/24
+File Name: apply08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+/* Style rule for body */
+body {
+	background-color: #ffe5dc;
+}
+
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/*table style*/
+table{
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1em solid #fd4d0c;
+  box-shadow: 10px 10px 10px #792101;
+}
+
+/*border collapse for table tr th td*/
+table, tr, th, td{
+  border-collapse: collapse;
+  padding: 2%;
+}
+
+/*caption fontsize padding margintop*/
+caption{
+  font-size: 2em;
+  padding: 2%;
+  margin-top: 2%;
+}
+
+/*th and td border*/
+th, td{
+  border: 1px solid #7188bb;
+  border-color: #a22c02;
+}
+
+/*td text align*/
+td{
+  text-align: left;
+}
+
+/*table odd rows color*/
+tr:nth-child(odd) {background-color: #fe9772;}
